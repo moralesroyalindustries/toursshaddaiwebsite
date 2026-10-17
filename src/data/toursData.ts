@@ -62,7 +62,6 @@ export const gallery: Array<{
   { image: '/images/gallery/GGNIGHT.jpeg', category: 'guests', caption: 'Evenings to remember', captionEs: 'Tardes para recordar' },
   { image: '/images/gallery/F1.jpeg', category: 'food', caption: 'Fresh flavors for a Caribbean day', captionEs: 'Sabores frescos para un día caribeño' },
   { image: '/images/gallery/F2.jpeg', category: 'food', caption: 'Delicious snacks included', captionEs: 'Deliciosos refrigerios incluidos' },
-  { image: '/images/gallery/F3.jpeg', category: 'food', caption: 'Tropical treats aboard', captionEs: 'Tentaciones tropicales a bordo' },
   { image: '/images/gallery/F5.jpeg', category: 'food', caption: 'A taste of the Caribbean', captionEs: 'Un sabor del Caribe' },
   { image: '/images/gallery/FF2.jpeg', category: 'food', caption: 'Freshly prepared on board', captionEs: 'Preparado fresco a bordo' },
   { image: '/images/gallery/FF4.jpeg', category: 'food', caption: 'Island-style dining', captionEs: 'Comida estilo isla' },
