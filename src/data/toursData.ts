@@ -6,8 +6,10 @@ export const business = {
   phoneLink: 'tel:+19394714747',
   email: 'boattoursshaddai@gmail.com',
   emailLink: 'mailto:boattoursshaddai@gmail.com',
-  facebook: 'FACEBOOK_URL_HERE',
-  instagram: 'https://www.instagram.com/charteaconmigo?igsh=anJxbmM1MGxsamgy',
+  facebook: 'https://www.facebook.com/toursshaddai',
+  instagram: 'https://www.instagram.com/toursshaddai/',
+  whatsapp: 'https://wa.me/19394714747?text=' + encodeURIComponent('Hello Tours Shaddai, I would like more information about your tour services and availability.'),
+  whatsappEs: 'https://wa.me/19394714747?text=' + encodeURIComponent('Hola Tours Shaddai, me gustaría más información sobre los servicios y disponibilidad de tours.'),
   logo: '/brand/Shaddailogo.png',
 };
 
@@ -96,5 +98,5 @@ export const faqs = [
   { en: ['Can I bring alcoholic beverages?', 'Yes. Guests may bring their preferred alcoholic beverages, but canned beverages only.'], es: ['¿Puedo traer bebidas alcohólicas?', 'Sí. Puedes traer tus bebidas alcohólicas preferidas, pero solamente en lata.'] },
   { en: ['What type of sunscreen should I bring?', 'Use lotion sunscreen. Spray sunscreen is not permitted.'], es: ['¿Qué tipo de protector solar debo traer?', 'Utiliza protector solar en crema. No se permite protector solar en aerosol.'] },
   { en: ['Where does Tours Shaddai go?', 'Tours Shaddai offers experiences visiting Cayo Icacos, Palomino, Vieques and Culebra in Puerto Rico.'], es: ['¿A dónde va Tours Shaddai?', 'Tours Shaddai ofrece experiencias visitando Cayo Icacos, Palomino, Vieques y Culebra en Puerto Rico.'] },
-  { en: ['How do I check availability?', 'Call Captain Jorge at 939-471-4747 or submit the website availability request form.'], es: ['¿Cómo verifico disponibilidad?', 'Llama al Capitán Jorge al 939-471-4747 o envía el formulario de solicitud de disponibilidad.'] },
+  { en: ['How do I check availability?', 'Message us on WhatsApp or submit the website availability request form.'], es: ['¿Cómo verifico disponibilidad?', 'Escríbenos por WhatsApp o envía el formulario de solicitud de disponibilidad.'] },
 ];
