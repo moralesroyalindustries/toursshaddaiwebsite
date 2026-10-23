@@ -10,16 +10,16 @@ export const business = {
   instagram: 'https://www.instagram.com/toursshaddai/',
   whatsapp: 'https://wa.me/19394714747?text=' + encodeURIComponent('Hello Tours Shaddai, I would like more information about your tour services and availability.'),
   whatsappEs: 'https://wa.me/19394714747?text=' + encodeURIComponent('Hola Tours Shaddai, me gustaría más información sobre los servicios y disponibilidad de tours.'),
-  logo: '/brand/Shaddailogo.png',
+  logo: 'brand/Shaddailogo.png',
 };
 
 export const images = {
-  hero: '/images/hero/Bote1.jpeg',
-  captain: '/images/gallery/Capitan_Jorge.png',
-  destinationIcacos: '/images/gallery/Bote_2.jpeg',
-  destinationPalomino: '/images/gallery/Bote4.jpeg',
-  destinationVieques: '/images/gallery/Bote5.jpeg',
-  destinationCulebra: '/images/gallery/FLAG.jpeg',
+  hero: 'images/hero/Bote1.jpeg',
+  captain: 'images/gallery/Capitan_Jorge.png',
+  destinationIcacos: 'images/gallery/Bote_2.jpeg',
+  destinationPalomino: 'images/gallery/Bote4.jpeg',
+  destinationVieques: 'images/gallery/Bote5.jpeg',
+  destinationCulebra: 'images/gallery/FLAG.jpeg',
 };
 
 export const destinations = [
@@ -44,7 +44,7 @@ export const destinations = [
     es: { name: 'Culebra', description: 'Haz snorkeling en la mundialmente famosa Playa Flamenco, observa tortugas marinas y relájate en una de las islas más espectaculares del Caribe.' },
   },
 ];
-export const destinationBanner = '/images/gallery/TOR.jpeg';
+export const destinationBanner = 'images/gallery/TOR.jpeg';
 
 export type GalleryCategory = 'boat' | 'guests' | 'food' | 'sunset';
 
@@ -54,25 +54,25 @@ export const gallery: Array<{
   caption: string;
   captionEs: string;
 }> = [
-  { image: '/images/hero/Bote1.jpeg', category: 'boat', caption: 'The Tours Shaddai experience', captionEs: 'La experiencia Tours Shaddai' },
-  { image: '/images/gallery/Bote_2.jpeg', category: 'boat', caption: 'Ready to set sail', captionEs: 'Listos para navegar' },
-  { image: '/images/gallery/Bote4.jpeg', category: 'boat', caption: 'Your private Caribbean cruise', captionEs: 'Tu crucero caribeño privado' },
-  { image: '/images/gallery/Bote5.jpeg', category: 'boat', caption: 'Crystal-clear waters ahead', captionEs: 'Aguas cristalinas por delante' },
-  { image: '/images/gallery/GG1.jpeg', category: 'guests', caption: 'Unforgettable moments on the water', captionEs: 'Momentos inolvidables en el agua' },
-  { image: '/images/gallery/GG4.jpeg', category: 'guests', caption: 'Good company, island views', captionEs: 'Buena compañía y vistas de la isla' },
-  { image: '/images/gallery/GG@.jpeg', category: 'guests', caption: 'Making memories together', captionEs: 'Creando recuerdos juntos' },
-  { image: '/images/gallery/GGNIGHT.jpeg', category: 'guests', caption: 'Evenings to remember', captionEs: 'Tardes para recordar' },
-  { image: '/images/gallery/F1.jpeg', category: 'food', caption: 'Fresh flavors for a Caribbean day', captionEs: 'Sabores frescos para un día caribeño' },
-  { image: '/images/gallery/F2.jpeg', category: 'food', caption: 'Delicious snacks included', captionEs: 'Deliciosos refrigerios incluidos' },
-  { image: '/images/gallery/F5.jpeg', category: 'food', caption: 'A taste of the Caribbean', captionEs: 'Un sabor del Caribe' },
-  { image: '/images/gallery/FF2.jpeg', category: 'food', caption: 'Freshly prepared on board', captionEs: 'Preparado fresco a bordo' },
-  { image: '/images/gallery/FF4.jpeg', category: 'food', caption: 'Island-style dining', captionEs: 'Comida estilo isla' },
-  { image: '/images/gallery/FF5.jpeg', category: 'food', caption: 'Colorful Caribbean plates', captionEs: 'Platos coloridos del Caribe' },
-  { image: '/images/gallery/FF6.jpeg', category: 'food', caption: 'A feast at sea', captionEs: 'Un banquete en el mar' },
-  { image: '/images/gallery/SUNS.jpeg', category: 'sunset', caption: 'Golden hour on the water', captionEs: 'Hora dorada en el agua' },
-  { image: '/images/gallery/SUN2.jpeg', category: 'sunset', caption: 'Where the sky meets the sea', captionEs: 'Donde el cielo se encuentra con el mar' },
-  { image: '/images/gallery/TOR.jpeg', category: 'sunset', caption: 'Caribbean sunset magic', captionEs: 'Magia del atardecer caribeño' },
-  { image: '/images/gallery/TOR2.jpeg', category: 'sunset', caption: 'Colors of the Caribbean sky', captionEs: 'Colores del cielo caribeño' },
+  { image: 'images/hero/Bote1.jpeg', category: 'boat', caption: 'The Tours Shaddai experience', captionEs: 'La experiencia Tours Shaddai' },
+  { image: 'images/gallery/Bote_2.jpeg', category: 'boat', caption: 'Ready to set sail', captionEs: 'Listos para navegar' },
+  { image: 'images/gallery/Bote4.jpeg', category: 'boat', caption: 'Your private Caribbean cruise', captionEs: 'Tu crucero caribeño privado' },
+  { image: 'images/gallery/Bote5.jpeg', category: 'boat', caption: 'Crystal-clear waters ahead', captionEs: 'Aguas cristalinas por delante' },
+  { image: 'images/gallery/GG1.jpeg', category: 'guests', caption: 'Unforgettable moments on the water', captionEs: 'Momentos inolvidables en el agua' },
+  { image: 'images/gallery/GG4.jpeg', category: 'guests', caption: 'Good company, island views', captionEs: 'Buena compañía y vistas de la isla' },
+  { image: 'images/gallery/GG@.jpeg', category: 'guests', caption: 'Making memories together', captionEs: 'Creando recuerdos juntos' },
+  { image: 'images/gallery/GGNIGHT.jpeg', category: 'guests', caption: 'Evenings to remember', captionEs: 'Tardes para recordar' },
+  { image: 'images/gallery/F1.jpeg', category: 'food', caption: 'Fresh flavors for a Caribbean day', captionEs: 'Sabores frescos para un día caribeño' },
+  { image: 'images/gallery/F2.jpeg', category: 'food', caption: 'Delicious snacks included', captionEs: 'Deliciosos refrigerios incluidos' },
+  { image: 'images/gallery/F5.jpeg', category: 'food', caption: 'A taste of the Caribbean', captionEs: 'Un sabor del Caribe' },
+  { image: 'images/gallery/FF2.jpeg', category: 'food', caption: 'Freshly prepared on board', captionEs: 'Preparado fresco a bordo' },
+  { image: 'images/gallery/FF4.jpeg', category: 'food', caption: 'Island-style dining', captionEs: 'Comida estilo isla' },
+  { image: 'images/gallery/FF5.jpeg', category: 'food', caption: 'Colorful Caribbean plates', captionEs: 'Platos coloridos del Caribe' },
+  { image: 'images/gallery/FF6.jpeg', category: 'food', caption: 'A feast at sea', captionEs: 'Un banquete en el mar' },
+  { image: 'images/gallery/SUNS.jpeg', category: 'sunset', caption: 'Golden hour on the water', captionEs: 'Hora dorada en el agua' },
+  { image: 'images/gallery/SUN2.jpeg', category: 'sunset', caption: 'Where the sky meets the sea', captionEs: 'Donde el cielo se encuentra con el mar' },
+  { image: 'images/gallery/TOR.jpeg', category: 'sunset', caption: 'Caribbean sunset magic', captionEs: 'Magia del atardecer caribeño' },
+  { image: 'images/gallery/TOR2.jpeg', category: 'sunset', caption: 'Colors of the Caribbean sky', captionEs: 'Colores del cielo caribeño' },
 ];
 
 export const galleryCategories: Array<{ key: GalleryCategory | 'all'; en: string; es: string }> = [
@@ -84,10 +84,10 @@ export const galleryCategories: Array<{ key: GalleryCategory | 'all'; en: string
 ];
 
 export const sunsetImages = [
-  '/images/gallery/SUNS.jpeg',
-  '/images/gallery/SUN2.jpeg',
-  '/images/gallery/TOR.jpeg',
-  '/images/gallery/TOR2.jpeg',
+  'images/gallery/SUNS.jpeg',
+  'images/gallery/SUN2.jpeg',
+  'images/gallery/TOR.jpeg',
+  'images/gallery/TOR2.jpeg',
 ];
 
 export const reviews: Array<{ quote: string; name: string }> = [];

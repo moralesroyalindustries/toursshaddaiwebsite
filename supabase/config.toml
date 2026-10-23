@@ -1,0 +1,10 @@
+# Public endpoints: the browser calls availability/create-checkout with the publishable key,
+# and Stripe calls stripe-webhook (verified by its signing secret instead of a JWT).
+[functions.availability]
+verify_jwt = false
+
+[functions.create-checkout]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
